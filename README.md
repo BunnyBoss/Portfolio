@@ -23,7 +23,7 @@ A detailed career journey through my roles at **Cellworks**:
 - **Scientist, Clinical Translation (2017–2018)**: Curated rationale libraries; analyzed 200+ cancer cases; benchmarked sequencing pipelines.
 - **Associate Scientist (2015–2017)**: Harmonized multi-omics data for >500 cases; automated ETL pipelines; standardized data interpretation from multiple partners.
 
-### 3. **Core Competencies**
+### 3. **Skills and Technologies**
 My technical expertise spans 10 distinct categories:
 - **NGS & Clinical-omics**: WGS, WES, TES, RNA-Seq, scRNA-Seq, Variant Interpretation (ACMG/AMP/ASCO/CAP), MSI, HRD, TMB, CNV, SV.
 - **Bioinformatics & Pipeline Engineering**: GATK, Sentieon, DRAGEN, NVIDIA Parabricks, DeepVariant, Nextflow, Kallisto, Salmon, DESeq2, Seurat, Scanpy, GSEA.
