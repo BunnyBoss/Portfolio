@@ -1,0 +1,3 @@
+assets/documents/*.docx
+assets/documents/*.pdf
+!assets/documents/Poornachandra_G_Resume.pdf
