@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     initScrollAnimations();
     initSmoothScroll();
     initActiveSection();
+    initCounterAnimation();
+    initMagneticButtons();
 });
 
 /**
