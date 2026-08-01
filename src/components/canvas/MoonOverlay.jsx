@@ -5,7 +5,7 @@ import { motion } from "framer-motion-3d";
 import { useTexture, Float } from "@react-three/drei";
 
 const MoonMesh = () => {
-  const moonTexture = useTexture('https://raw.githubusercontent.com/mrdoob/three.js/master/examples/textures/planets/moon_1024.jpg');
+  const moonTexture = useTexture('/moon_1024.jpg');
 
   // Track global window scroll
   const { scrollYProgress } = useScroll();
