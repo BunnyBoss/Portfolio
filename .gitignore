@@ -26,4 +26,4 @@ dist-ssr
 
 # Documents
 assets/documents/*
-!assets/documents/Poornachandra_G_Resume.pdf
+!assets/documents/Poornachandra_G_Resume*.pdf
