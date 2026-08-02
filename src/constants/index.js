@@ -48,7 +48,7 @@ export const experiences = [
     title: "Lead Clinical Translation",
     company_name: "Cellworks",
     icon: "🧬",
-    iconBg: "#1d1836",
+    iconBg: "#0F1318",
     date: "2024 – Present",
     points: [
       "Designed multi-agent orchestration workflows for vendor order management, coordinating specialized agents, external tools, and contextual memory with human-in-the-loop validation at critical decision points.",
@@ -64,7 +64,7 @@ export const experiences = [
     title: "Senior Scientist, Reporting Manager",
     company_name: "Cellworks",
     icon: "📊",
-    iconBg: "#1d1836",
+    iconBg: "#0F1318",
     date: "2021 – 2024",
     points: [
       "Drove early adoption of LLM-assisted, RAG-based workflows for oncology therapy recommendations, integrating prompt engineering, knowledge indexing, and structured output evaluation.",
@@ -78,7 +78,7 @@ export const experiences = [
     title: "Senior Scientist, Clinical Translation",
     company_name: "Cellworks",
     icon: "🔬",
-    iconBg: "#1d1836",
+    iconBg: "#0F1318",
     date: "2018 – 2021",
     points: [
       "Built a machine learning pipeline using longitudinal time-series data to predict early disease relapse, applying feature engineering and model validation methodology.",
@@ -91,7 +91,7 @@ export const experiences = [
     title: "Scientist, Clinical Translation",
     company_name: "Cellworks",
     icon: "⚗️",
-    iconBg: "#1d1836",
+    iconBg: "#0F1318",
     date: "2017 – 2018",
     points: [
       "Engineered a Python rule-based variant classification framework to automate prioritization and standardize decision support.",
@@ -103,7 +103,7 @@ export const experiences = [
     title: "Associate Scientist",
     company_name: "Cellworks",
     icon: "🧪",
-    iconBg: "#1d1836",
+    iconBg: "#0F1318",
     date: "2015 – 2017",
     points: [
       "Automated report generation and ETL workflows using Python and SQL, reducing weekly processing time from ~15 hours to minutes.",

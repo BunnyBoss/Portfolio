@@ -49,7 +49,7 @@ const MoonMesh = () => {
       {/* Subtle neon rim light for the cyberpunk aesthetic */}
       <directionalLight
         intensity={0.1}
-        color="#00e5ff"
+        color="#A8C4D4"
         position={[5, -5, -5]}
       />
 

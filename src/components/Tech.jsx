@@ -9,8 +9,8 @@ const TechBall = ({ name, icon, index }) => (
     className="flex flex-col items-center group"
   >
     <div className="w-24 h-24 rounded-full glass-card flex items-center justify-center cursor-pointer
-      transition-all duration-300 group-hover:shadow-lg group-hover:shadow-accent/30
-      group-hover:border-accent/50 border border-white/5 pulse-glow"
+      transition-all duration-300 group-hover:shadow-lg group-hover:shadow-accent/20
+      group-hover:border-accent/30 border border-white/8 pulse-glow"
     >
       <span className="text-4xl">{icon}</span>
     </div>
@@ -27,7 +27,7 @@ const Tech = () => {
         <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
           My technical toolkit
         </p>
-        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
+        <h2 className="font-heading text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
           Technologies.
         </h2>
       </motion.div>

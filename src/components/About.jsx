@@ -16,9 +16,9 @@ const ServiceCard = ({ index, title, icon, description }) => (
   >
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className="w-full p-[1px] rounded-[20px] shadow-card hover:shadow-[0_0_20px_rgba(0,229,255,0.3)] transition-shadow duration-300"
+      className="w-full p-[1px] rounded-[20px] shadow-card hover:shadow-[0_0_20px_rgba(168,196,212,0.2)] transition-shadow duration-300"
       style={{
-        background: "linear-gradient(135deg, #00e5ff 0%, #111111 50%, #9d4edd 100%)",
+        background: "linear-gradient(135deg, #A8C4D4 0%, #0F1318 50%, #D4A574 100%)",
       }}
     >
       <div className="bg-tertiary rounded-[20px] py-8 px-6 min-h-[320px] flex justify-evenly items-center flex-col">
@@ -39,7 +39,7 @@ const About = () => {
         <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
           Introduction
         </p>
-        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
+        <h2 className="font-heading text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
           Overview.
         </h2>
       </motion.div>

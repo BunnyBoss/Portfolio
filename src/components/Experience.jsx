@@ -16,20 +16,20 @@ const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#111111",
+        background: "#0F1318",
         color: "#fff",
-        borderBottom: "3px solid #00e5ff",
-        border: "1px solid rgba(255, 255, 255, 0.1)",
+        border: "1px solid rgba(168, 196, 212, 0.08)",
+        borderBottom: "3px solid #D4A574",
       }}
-      contentArrowStyle={{ borderRight: "7px solid #111111" }}
+      contentArrowStyle={{ borderRight: "7px solid #0F1318" }}
       date={experience.date}
       dateClassName="text-secondary"
       iconStyle={{ 
         background: experience.iconBg, 
         fontSize: "1.5rem",
         boxShadow: isInView 
-          ? "0 0 0 4px #00e5ff, inset 0 2px 0 rgba(0,0,0,.08), 0 0 30px 15px rgba(0, 229, 255, 1)" 
-          : "0 0 0 4px #111111, inset 0 2px 0 rgba(0,0,0,.08)",
+          ? "0 0 0 4px #A8C4D4, inset 0 2px 0 rgba(0,0,0,.08), 0 0 20px 10px rgba(168, 196, 212, 0.5)" 
+          : "0 0 0 4px #0F1318, inset 0 2px 0 rgba(0,0,0,.08)",
         transition: "all 0.4s ease-in-out"
       }}
       icon={
@@ -37,7 +37,7 @@ const ExperienceCard = ({ experience }) => {
           ref={ref}
           className="flex justify-center items-center w-full h-full text-2xl"
           style={{ 
-            filter: isInView ? "drop-shadow(0 0 15px rgba(0, 229, 255, 1)) drop-shadow(0 0 30px rgba(0, 229, 255, 0.8)) grayscale(0%) opacity(100%)" : "grayscale(100%) opacity(40%)",
+            filter: isInView ? "drop-shadow(0 0 10px rgba(168, 196, 212, 0.8)) drop-shadow(0 0 20px rgba(168, 196, 212, 0.5)) grayscale(0%) opacity(100%)" : "grayscale(100%) opacity(40%)",
             transform: isInView ? "scale(1)" : "scale(0.8)",
             transition: "all 0.4s ease-in-out"
           }}
@@ -48,7 +48,7 @@ const ExperienceCard = ({ experience }) => {
     >
     <div>
       <h3 className="text-white text-[22px] font-bold">{experience.title}</h3>
-      <p className="text-accent text-[16px] font-semibold" style={{ margin: 0 }}>
+      <p className="text-accent-secondary text-[16px] font-semibold" style={{ margin: 0 }}>
         {experience.company_name}
       </p>
     </div>
@@ -80,20 +80,20 @@ const Experience = () => {
         <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
           What I have done so far
         </p>
-        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
+        <h2 className="font-heading text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
           Work Experience.
         </h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col relative" ref={ref}>
-        {/* Glowing Scroll Line Body */}
+        {/* Glowing Scroll Line Body — Soft moonlight beam */}
         <motion.div 
-           className="absolute left-[18px] md:left-1/2 top-0 h-full w-[4px] md:-ml-[2px] bg-accent z-0"
+           className="absolute left-[18px] md:left-1/2 top-0 h-full w-[4px] md:-ml-[2px] z-0"
            style={{ 
              scaleY: scrollYProgress,
              transformOrigin: "top",
-             background: "linear-gradient(to bottom, transparent, #00e5ff)",
-             boxShadow: "0 0 20px 5px rgba(0, 229, 255, 0.8), 0 0 40px 10px rgba(0, 229, 255, 0.5)"
+             background: "linear-gradient(to bottom, transparent, #A8C4D4)",
+             boxShadow: "0 0 15px 4px rgba(168, 196, 212, 0.5), 0 0 30px 8px rgba(168, 196, 212, 0.25)"
            }}
         />
         {/* Glowing Scroll Line Head */}
@@ -102,10 +102,10 @@ const Experience = () => {
            style={{ 
              top: useTransform(scrollYProgress, [0, 1], ["0%", "100%"]),
              marginTop: "-30px", // Offset so the tip aligns perfectly
-             boxShadow: "0 20px 50px 25px rgba(0, 229, 255, 1), 0 10px 20px 10px rgba(255, 255, 255, 1), 0 0 20px 10px #00e5ff"
+             boxShadow: "0 15px 40px 20px rgba(168, 196, 212, 0.7), 0 8px 15px 8px rgba(255, 255, 255, 0.8), 0 0 15px 8px #A8C4D4"
            }}
         />
-        <VerticalTimeline lineColor="rgba(255,255,255,0.1)">
+        <VerticalTimeline lineColor="rgba(168, 196, 212, 0.1)">
           {experiences.map((experience, index) => (
             <ExperienceCard key={`experience-${index}`} experience={experience} />
           ))}

@@ -18,10 +18,10 @@ const ProjectCard = ({ index, name, description, tags, icon }) => (
       className="sm:w-[360px] w-full"
     >
       <div
-        className="p-[1px] rounded-2xl shadow-card hover:shadow-[0_0_20px_rgba(0,229,255,0.3)] transition-shadow duration-300"
+        className="p-[1px] rounded-2xl shadow-card hover:shadow-[0_0_20px_rgba(168,196,212,0.2)] transition-shadow duration-300"
         style={{
           background:
-            "linear-gradient(135deg, rgba(0,229,255,0.4), rgba(17,17,17,1))",
+            "linear-gradient(135deg, rgba(168,196,212,0.3), rgba(15,19,24,1))",
         }}
       >
         <div className="bg-tertiary rounded-2xl p-5 min-h-[320px] flex flex-col justify-between">
@@ -57,7 +57,7 @@ const Works = () => {
         <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
           My work
         </p>
-        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
+        <h2 className="font-heading text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
           Projects.
         </h2>
       </motion.div>
