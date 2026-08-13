@@ -1,16 +1,15 @@
-# Agentic AI Engineer Portfolio
+# Bioinformatics & Multi-Omics Leader | 3D Interactive Portfolio
 
-A premium, highly interactive 3D portfolio designed to showcase projects and experience in Agentic AI, Multi-Agent Systems, RAG architecture, and Machine Learning. 
+A premium, interactive 3D portfolio highlighting 10+ years of experience in Bioinformatics, Multi-Omics Data Science, Precision Oncology, Target Discovery, Knowledge Graphs, and AI-Augmented Pipelines (LLMs, RAG, Multi-Agent Systems). 
 
-This portfolio breaks away from standard web templates by integrating a persistent, scroll-driven 3D environment featuring a hyper-realistic moon that dynamically changes phases as you explore the content.
+This portfolio features a scroll-driven 3D environment with a realistic moon texture that dynamically moves and shifts lighting as you navigate through the content.
 
 ## 🚀 Features
 
-- **Dynamic 3D Scroll Animations:** Uses `framer-motion-3d` to map the user's scroll position directly to the 3D canvas. A high-resolution moon smoothly scales, translates across sections, and rotates as you scroll.
-- **Procedural Lighting (Moon Phases):** As you reach the bottom of the page, the directional lighting dynamically orbits the moon, plunging the craters into shadow and creating a razor-thin, realistic crescent moon.
-- **Cyberpunk / Deep Space Aesthetic:** A stark monochrome black/grey palette (`#030303`, `#111111`) accented with glowing neon cyan (`#00e5ff`) drop-shadows and rim lights.
-- **Interactive Timelines & Physics Cursors:** Includes a scroll-synced glowing laser beam in the experience timeline and a custom physics-based trailing cursor.
-- **Procedural AI Background:** A Three.js neural network visualization representing AI/ML engineering expertise.
+- **Lunar Elegance Theme:** Soft moonlight palette (`#A8C4D4`, `#D4A574`, `#0F1318`) with Outfit headings and warm gold accents.
+- **Dynamic 3D Scroll Animations:** Uses `framer-motion-3d` to map scroll position directly to the 3D canvas. A moon model smoothly scales, translates across sections, and rotates as you scroll.
+- **Interactive Timelines & Physics Cursors:** Includes a scroll-synced glowing beam in the experience timeline and a custom trailing cursor.
+- **Precision Oncology & Multi-Omics Focus:** Showcases work in NGS pipelines, single-cell RNA-seq, spatial transcriptomics, target discovery, DepMap knowledge graphs, and biopharma technical delivery (Takeda, Genentech, Bugworks, Cleveland Clinic).
 
 ## 🛠️ Technology Stack
 

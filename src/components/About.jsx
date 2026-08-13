@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
-import { aboutCards } from "../constants";
+import { aboutCards, aboutSummary } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "../hoc/SectionWrapper";
 
@@ -48,12 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        AI/ML Engineer with 10+ years of experience designing and delivering
-        end-to-end AI solutions, specializing in agentic AI, LLMs, RAG, and
-        multi-agent systems. Experienced in solution architecture, agent
-        orchestration, prompt engineering, retrieval pipelines, model evaluation,
-        and responsible AI practices. Skilled at translating complex business use
-        cases into scalable, AI-driven automation.
+        {aboutSummary}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">

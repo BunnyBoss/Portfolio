@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { CoreCanvas } from "./canvas";
 import { slideIn, textVariant } from "../utils/motion";
 import { contactInfo } from "../constants";
 import SectionWrapper from "../hoc/SectionWrapper";
@@ -22,7 +21,7 @@ const Contact = () => {
           className="flex-[0.75] bg-black-100 p-8 rounded-2xl border border-white/10 hover:shadow-[0_0_30px_rgba(168,196,212,0.1)] transition-shadow duration-300"
         >
           <p className="text-secondary text-[16px] leading-[28px] mb-8">
-            I'm always open to discussing Agentic AI, Multi-Agent Systems, RAG architecture, and ML in healthcare. Let's connect!
+            I'm always open to discussing precision oncology, multi-omics integration, target discovery, knowledge graphs, and biomedical AI/RAG architectures. Let's connect!
           </p>
           <div className="flex flex-col gap-6">
             <ContactItem emoji="✉️" label="Email" value={contactInfo.email} href={`mailto:${contactInfo.email}`} />
