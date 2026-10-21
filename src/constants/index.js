@@ -11,13 +11,13 @@ export const navLinks = [
 export const heroContent = {
   greeting: "Hi, I'm",
   name: "Poornachandra G.",
-  tagline: "Bioinformatics & AI Engineering | Precision Medicine & Agentic AI Systems",
+  tagline: "Bioinformatics Scientist & AI Systems Developer | Precision Oncology & Agentic AI",
   description:
-    "10+ years architecting and productionizing end-to-end clinical NGS & multi-omics pipelines for precision oncology, alongside cutting-edge agentic AI systems, LLM/RAG workflows, and biological data integration.",
+    "10+ years of experience in precision oncology, clinical genomics, and production-grade NGS and multi-omics pipelines, combining deep translational research with AI-powered applications, RAG pipelines, and multi-agent systems.",
 };
 
 export const aboutSummary =
-  "Bioinformatics Scientist with 10+ years of experience in precision oncology, specializing in the design, development, and productionization of end-to-end NGS and multi-omics pipelines for clinical and translational research. Built the company's cross-functional bioinformatics stack from the ground up, delivering scalable, reproducible, and regulatory-ready solutions spanning genomic analysis, clinical variant interpretation (ACMG/AMP), and large-scale biological data integration. Experienced in engineering AI-powered workflows and tools, including LLM-integrated applications, RAG, and multi-agent systems, combining established bioinformatics tools with systematic evaluation approaches to improve reliability and biological relevance.";
+  "Bioinformatics Scientist and AI Systems Developer with 10+ years of experience in precision oncology, clinical genomics, and production-grade NGS and multi-omics pipelines. Combines deep expertise in biomarker discovery, variant interpretation, and translational research with hands-on development of AI-powered applications, RAG pipelines, and multi-agent systems. Experienced in reproducible workflow engineering, machine learning, and systematic AI evaluation, with a focus on biological relevance, scientific validity, and reliable, traceable computational workflows.";
 
 export const aboutCards = [
   {
