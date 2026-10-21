@@ -227,7 +227,7 @@ export const education = {
 export const contactInfo = {
   email: "poornachandra.gedi@gmail.com",
   phone: "+91-7899 419758",
-  linkedin: "https://linkedin.com/in/poornachandra-g",
+  linkedin: "http://linkedin.com/in/poornachandra-g",
   orcid: "https://orcid.org/0009-0009-1610-1205",
   location: "Bengaluru, India",
 };

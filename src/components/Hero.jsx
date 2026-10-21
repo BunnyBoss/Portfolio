@@ -20,15 +20,15 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="ml-4 pointer-events-auto">
+        <div className="ml-4 pointer-events-auto max-w-2xl">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <h1 className="font-heading font-black text-white lg:text-[72px] sm:text-[56px] xs:text-[44px] text-[36px] lg:leading-[88px] mt-2">
+            <h1 className="font-heading font-black text-white lg:text-[72px] sm:text-[56px] xs:text-[44px] text-[36px] lg:leading-[88px] mt-2 drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)]">
               {heroContent.greeting}{" "}
-              <span className="text-accent-secondary drop-shadow-[0_0_15px_rgba(212,165,116,0.4)]">{heroContent.name}</span>
+              <span className="text-accent-secondary drop-shadow-[0_0_20px_rgba(212,165,116,0.6)]">{heroContent.name}</span>
             </h1>
           </motion.div>
 
@@ -37,7 +37,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
-            <p className="text-secondary font-medium lg:text-[28px] sm:text-[24px] xs:text-[20px] text-[18px] lg:leading-[36px] mt-2">
+            <p className="text-white font-semibold lg:text-[26px] sm:text-[22px] xs:text-[19px] text-[17px] lg:leading-[36px] mt-3 drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)]">
               {heroContent.tagline}
             </p>
           </motion.div>
@@ -46,7 +46,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
-            className="mt-4 text-secondary/80 max-w-[600px] text-[15px] leading-[26px]"
+            className="mt-4 text-slate-100/90 font-normal max-w-[600px] text-[15px] sm:text-[16px] leading-[26px] drop-shadow-[0_2px_10px_rgba(0,0,0,0.95)]"
           >
             {heroContent.description}
           </motion.p>
@@ -65,7 +65,7 @@ const Hero = () => {
             </a>
             <a
               href="#works"
-              className="border border-accent/30 text-accent hover:bg-accent/10 font-medium py-3 px-8 rounded-xl transition-all"
+              className="border border-accent/40 bg-primary/40 backdrop-blur-sm text-accent hover:bg-accent/15 font-medium py-3 px-8 rounded-xl transition-all"
             >
               View Projects
             </a>
@@ -74,8 +74,8 @@ const Hero = () => {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center z-10">
-        <a href="#about">
+      <div className="absolute bottom-6 sm:bottom-10 w-full flex justify-center items-center z-10 pointer-events-none">
+        <a href="#about" className="pointer-events-auto">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary/40 flex justify-center items-start p-2">
             <motion.div
               animate={{ y: [0, 24, 0] }}

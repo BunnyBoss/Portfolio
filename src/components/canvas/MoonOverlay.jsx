@@ -1,22 +1,23 @@
-import { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
+import { Suspense, useRef } from "react";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { useScroll, useTransform } from "framer-motion";
-import { motion } from "framer-motion-3d";
 import { useTexture, Float } from "@react-three/drei";
 
 const MoonMesh = () => {
   const moonTexture = useTexture('/moon_1024.jpg');
+  const meshRef = useRef();
+  const lightRef = useRef();
 
   // Track global window scroll
   const { scrollYProgress } = useScroll();
 
-  // Position X: 
+  // Position X:
   // 0 -> Center (Hero)
   // 0.2 -> 0.85 -> Middle Right (Sidebar)
   // 0.85 -> 1.0 -> Center Right (Contact Section)
   const xPos = useTransform(scrollYProgress, [0, 0.2, 0.85, 1.3], [0, 2.9, 2.9, 1.2]);
 
-  // Scale: 
+  // Scale:
   // 0 -> 1.2 (Hero)
   // 0.2 -> 0.85 -> 0.35 (Sidebar)
   // 0.85 -> 1.0 -> 1.4 (Huge crescent in Contact)
@@ -32,19 +33,34 @@ const MoonMesh = () => {
   // Increase intensity heavily as it goes behind to keep the sliver bright
   const lightIntensity = useTransform(scrollYProgress, [0, 1], [1.5, 30]);
 
-  // Rotate moon as we scroll (180 degree rotation from the classic face)
+  // Lunar near side as viewed from India / Northern Hemisphere:
+  // Initial angle: -Math.PI / 2 (-90 deg) directly presents the iconic near-side face
+  // (Maria in top-center, Tycho crater at southern base).
   const moonRotationY = useTransform(scrollYProgress, [0, 1], [-Math.PI / 2, (-Math.PI / 2) + Math.PI]);
+
+  // Directly apply transforms every frame to ensure reliable Three.js updates
+  useFrame(() => {
+    if (meshRef.current) {
+      meshRef.current.position.x = xPos.get();
+      const s = scale.get();
+      meshRef.current.scale.set(s, s, s);
+      meshRef.current.rotation.y = moonRotationY.get();
+    }
+    if (lightRef.current) {
+      lightRef.current.position.set(lightX.get(), lightY.get(), lightZ.get());
+      lightRef.current.intensity = lightIntensity.get();
+    }
+  });
 
   return (
     <>
       <ambientLight intensity={0.01} />
       {/* Dynamic light creating the phases of the moon */}
-      <motion.directionalLight
-        intensity={lightIntensity}
+      <directionalLight
+        ref={lightRef}
         color="#ffffff"
-        position-x={lightX}
-        position-y={lightY}
-        position-z={lightZ}
+        position={[0, 2, 12]}
+        intensity={1.5}
       />
       {/* Subtle neon rim light for the cyberpunk aesthetic */}
       <directionalLight
@@ -54,11 +70,7 @@ const MoonMesh = () => {
       />
 
       <Float speed={1.5} rotationIntensity={0.2} floatIntensity={0.5}>
-        <motion.mesh
-          scale={scale}
-          position-x={xPos}
-          rotation-y={moonRotationY}
-        >
+        <mesh ref={meshRef} rotation={[0, -Math.PI / 2, 0]}>
           <sphereGeometry args={[1, 64, 64]} />
           <meshStandardMaterial
             map={moonTexture}
@@ -66,7 +78,7 @@ const MoonMesh = () => {
             emissiveIntensity={0.01} // Even darker emissive for more realistic shadows
             roughness={1}
           />
-        </motion.mesh>
+        </mesh>
       </Float>
     </>
   );
