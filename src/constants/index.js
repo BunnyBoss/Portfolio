@@ -11,9 +11,9 @@ export const navLinks = [
 export const heroContent = {
   greeting: "Hi, I'm",
   name: "Poornachandra G.",
-  tagline: "Bioinformatics Scientist & AI Systems Developer | Precision Oncology & Agentic AI",
+  tagline: "The scientist who thinks like an engineer and leads like a human.",
   description:
-    "10+ years of experience in precision oncology, clinical genomics, and production-grade NGS and multi-omics pipelines, combining deep translational research with AI-powered applications, RAG pipelines, and multi-agent systems.",
+    "10+ years in bioinformatics, deep expertise in NGS secondary analysis, and a systems-builder mindset. I bring AI and biology together to build smarter workflows, turn complex science into scalable solutions, and help teams do their best work—with curiosity, collaboration, and a little fun along the way.",
 };
 
 export const aboutSummary =
