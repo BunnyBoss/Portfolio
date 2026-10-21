@@ -1,0 +1,74 @@
+{
+  "target": {
+    "company": "BioTech AI",
+    "role": "Lead Bioinformatics Scientist",
+    "company_slug": "biotech-ai",
+    "role_slug": "lead-bioinformatics-scientist"
+  },
+  "archetype": {
+    "key": "bioinformatics_lead",
+    "name": "Lead Bioinformatics Scientist / Clinical Genomics",
+    "recommended_summary": "Bioinformatics Lead Scientist with 10+ years of experience in precision medicine across oncology and rare diseases. Expert in designing, building, and productionizing end-to-end applied bioinformatics and multi-omics pipelines for clinical workflows. Conceived and built comprehensive cross-functional bioinformatics stacks from scratch, delivering reproducible, scalable, and regulatory-ready solutions that integrate NGS analysis, clinical variant interpretation, phenotype-based prioritization, and data-driven insights. Active builder of AI-powered tools spanning multi-agent systems, clinical AI apps, and developer infrastructure."
+  },
+  "match_metrics": {
+    "estimated_match_score": "55%",
+    "matched_skills_count": 6,
+    "matched_projects_count": 2
+  },
+  "matched_skills_by_category": {
+    "pipeline_engineering": [
+      "Nextflow",
+      "GATK"
+    ],
+    "llms_agentic_systems": [
+      "LangChain"
+    ],
+    "ngs_clinical_omics": [
+      "WGS",
+      "WES",
+      "RNA-Seq"
+    ]
+  },
+  "potential_gaps_or_bonus_terms": [],
+  "top_recommended_projects": [
+    {
+      "id": "proj_sql_chat",
+      "name": "SQL Chat",
+      "category": "Full-Stack Applications",
+      "score": 3,
+      "reasons": [
+        "Tag matched: LangChain"
+      ],
+      "summary": "Multi-agent Streamlit application that translates natural language clinical queries to SQL, executes statistical tests, and returns interpretable Markdown summaries for researchers.",
+      "tags": [
+        "Multi-Agent",
+        "NL2SQL",
+        "LangChain",
+        "SQLite",
+        "Streamlit"
+      ]
+    },
+    {
+      "id": "proj_rare_disease_pipeline",
+      "name": "Phenotype-Driven Rare Disease Prioritization Pipeline",
+      "category": "Clinical & Bioinformatics AI",
+      "score": 3,
+      "reasons": [
+        "Tag matched: Nextflow"
+      ],
+      "summary": "End-to-end tertiary analysis pipeline for phenotype-based gene prioritization, variant selection, and clinical reporting in rare genetic disorders. Awarded Top Rank at Bangalore Tech Summit 2025.",
+      "tags": [
+        "Nextflow",
+        "Python",
+        "HPO (Human Phenotype Ontology)",
+        "ACMG Guidelines",
+        "Variant Prioritization"
+      ]
+    }
+  ],
+  "talking_points": [
+    "Tailored for BioTech AI's Lead Bioinformatics Scientist opening with focus on Lead Bioinformatics Scientist / Clinical Genomics.",
+    "Emphasize 10+ years of clinical & production bioinformatics and modern AI engineering.",
+    "Leverage relevant hands-on projects: SQL Chat, Phenotype-Driven Rare Disease Prioritization Pipeline."
+  ]
+}

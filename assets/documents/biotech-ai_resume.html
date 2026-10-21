@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+        
+    @page {
+        size: A4;
+        margin: 10mm 13mm 11mm 13mm;
+        @bottom-right {
+            content: counter(page) " / " counter(pages);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-size: 8pt;
+            color: #888;
+        }
+    }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        color: #2c3e50;
+        font-size: 9.2pt;
+        line-height: 1.34;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        color: #1a4971;
+        text-align: center;
+        font-size: 20pt;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+        margin-bottom: 3px;
+        margin-top: 0;
+    }
+    .role-title {
+        text-align: center;
+        font-size: 11pt;
+        font-weight: 600;
+        color: #216093;
+        margin-bottom: 4px;
+    }
+    .contact-info {
+        text-align: center;
+        font-size: 8.8pt;
+        color: #4b5563;
+        margin-bottom: 11px;
+    }
+    .contact-info a {
+        color: #216093;
+        text-decoration: none;
+    }
+    h2 {
+        color: #1a4971;
+        border-bottom: 1.5px solid #1a4971;
+        padding-bottom: 2px;
+        font-size: 11pt;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        margin-top: 10px;
+        margin-bottom: 4px;
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+    /* Skills Table */
+    .skills-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 8px;
+        page-break-inside: auto;
+    }
+    .skills-table tr {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    .skills-table td {
+        border: 1px solid #e2e8f0;
+        padding: 3px 6px;
+        font-size: 8.8pt;
+        line-height: 1.3;
+        vertical-align: top;
+    }
+    .skills-table td:first-child {
+        color: #1a4971;
+        font-weight: 600;
+        width: 25%;
+        background-color: #f8fafc;
+    }
+    .experience-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 7px;
+        margin-bottom: 2px;
+        page-break-after: avoid;
+        break-after: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    .experience-header strong {
+        font-size: 10pt;
+        color: #0f172a;
+    }
+    .experience-header em {
+        font-size: 9pt;
+        color: #64748b;
+        font-style: normal;
+    }
+    ul {
+        margin-top: 2px;
+        padding-left: 17px;
+        margin-bottom: 5px;
+    }
+    li {
+        margin-bottom: 2px;
+        font-size: 9pt;
+        line-height: 1.32;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 6px;
+        font-size: 9pt;
+        line-height: 1.34;
+    }
+    a {
+        color: #216093;
+        text-decoration: none;
+    }
+    @media screen {
+        body {
+            background-color: #f1f5f9;
+            padding: 25px 15px;
+            display: flex;
+            justify-content: center;
+        }
+        .resume-container {
+            max-width: 820px;
+            width: 100%;
+            background: #ffffff;
+            padding: 38px 45px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+    }
+    @media print {
+        body {
+            background: transparent;
+            padding: 0;
+        }
+        .resume-container {
+            max-width: none;
+            padding: 0;
+            box-shadow: none;
+            border-radius: 0;
+        }
+    }
+    
+        </style>
+    </head>
+    <body>
+        <div class="resume-container">
+            <h1>Poornachandra G.</h1>
+<div><div class="role-title"><strong>Lead Bioinformatics Scientist | Precision Medicine &amp; Agentic AI Systems</strong></div><div class="contact-info">✉ <a href="mailto:poornachandra.gedi@gmail.com">poornachandra.gedi@gmail.com</a> • ☎ +91-7899 419758 • 📍 Bengaluru, India • <a href="https://www.linkedin.com/in/poornachandra-g-68045688/">LinkedIn</a> • <a href="https://orcid.org/0009-0009-1610-1205">ORCID</a> • <a href="https://bunnyboss.github.io/Portifolio/">Portfolio</a></div></div>
+
+<h2>PROFESSIONAL SUMMARY</h2>
+<p>Bioinformatics Lead Scientist with 10+ years of experience in precision medicine across oncology and rare diseases. Expert in designing, building, and productionizing end-to-end applied bioinformatics and multi-omics pipelines for clinical workflows. Conceived and built comprehensive cross-functional bioinformatics stacks from scratch, delivering reproducible, scalable, and regulatory-ready solutions that integrate NGS analysis, clinical variant interpretation, phenotype-based prioritization, and data-driven insights. Active builder of AI-powered tools spanning multi-agent systems, clinical AI apps, and developer infrastructure.</p>
+<h2>SELECTED HIGHLIGHTS &amp; IMPACT</h2>
+<ul>
+<li>Clinical NGS Pipelines: Built and productionized end-to-end NGS pipelines (WGS/WES/TES, RNA-Seq, CNV, SV) used in clinical and research workflows; significantly reduced sample turnaround time through automated QC and reporting.</li>
+<li>Variant Interpretation Workflows: Architected variant annotation and prioritization workflows (ACMG/AMP/ASCO/CAP) integrating multiple public and proprietary annotations to enable actionable clinical decision support.</li>
+<li>Biomarker Discovery &amp; ML Initiatives: Led ML initiatives for biomarker discovery and patient stratification: feature engineering from multi-omics inputs, model validation, and deployment in production environments.</li>
+<li>Phenotype-Based Rare Disease Prioritization: Architected and built a tertiary analysis pipeline for phenotype-based gene prioritization, variant selection, and reporting in rare diseases. Presented this work and secured the top rank at the Bangalore Tech Summit (2025) as an independent researcher.</li>
+<li>Bioinformatics Team Mentorship &amp; Hiring: Mentored and grew a bioinformatics team; led technical hiring, performance reviews, and cross-functional training.</li>
+<li>AI/LLM Engineering &amp; Observability: Architected independent AI projects spanning LLM tooling, multi-agent frameworks, clinical AI apps, and developer infrastructure. Established AI evaluation and observability frameworks (Promptfoo, DeepEval, Ragas) for accuracy benchmarking, hallucination analysis, and retrieval quality validation.</li>
+<li>Internal Web Applications &amp; Dashboards: Delivered internal web applications and dashboards (Streamlit, Gradio, FastAPI) to deploy AI-based applications for cross-functional stakeholders.</li>
+</ul>
+<h2>SKILLS &amp; TECHNOLOGIES</h2>
+<table class="skills-table"><tr><td>Applied Bioinformatics &amp; Clinical-omics</td><td>WGS • WES • RNA-Seq • TES • scRNA-Seq • Spatial Transcriptomics • Liquid Biopsy • Pharmacogenomics • Companion Diagnostics • Variant Interpretation (ACMG/AMP/ASCO/CAP) • MSI • HRD • TMB • CNV • SV • Rare Disease Genomics • Phenotype-based Gene Prioritization</td></tr><tr><td>Pipeline Engineering</td><td>Nextflow • GATK • Benchmarking • Reproducibility • Seurat • Sentieon • DRAGEN • NVIDIA Parabricks • FreeBayes • DeepVariant • DeepSomatic • PureCN • CNVKit • VEP • ANNOVAR • QC Automation • Kallisto • Salmon • DESeq2 • edgeR • Scanpy • GSEA</td></tr><tr><td>LLMs &amp; Agentic Systems</td><td>LangChain • Fine-Tuning • LangGraph • CrewAI • Multi-Agent Systems • RAG Pipelines • GraphRAG • Prompt Engineering • Context Engineering • Quantization • LoRA/QLoRA • AI Evaluation &amp; Observability (Promptfoo, DeepEval, Ragas, LangSmith, Langfuse) • AI Validation (LLM-as-a-Judge, Red Teaming, Hallucination Analysis) • LiteLLM • MCP (Model Context Protocol) • OpenAI / Anthropic / Gemini APIs • Ollama • W&amp;B</td></tr><tr><td>Programming &amp; Engineering</td><td>Python • R • Git • CI/CD • Bash • FastAPI • SQLite • PostgreSQL • REST APIs • Uvicorn</td></tr><tr><td>Cloud, Platforms &amp; Infrastructure</td><td>Docker • HPC • AWS (EC2, S3, Batch, HealthOmics) • Azure AI Foundry • DNAnexus • BaseSpace • Galaxy • GenePattern • Terra/FireCloud • Illumina Connected Analytics • Conda/Mamba • Jupyter • MLOps</td></tr><tr><td>Machine Learning &amp; AI</td><td>R • Supervised/Unsupervised Learning • Feature Engineering • LightGBM • XGBoost • PyTorch • TensorFlow • scikit-learn • PyCaret • AutoML • PySpark • SHAP • scipy • pandas • NumPy</td></tr><tr><td>NLP, OCR &amp; Document AI</td><td>Hugging Face Transformers • LayoutLMv3 • BioBERT • scispaCy • NLTK • Tesseract • EasyOCR • PyMuPDF • Docling • unstructured.io • OpenCV</td></tr><tr><td>Visualization &amp; UI</td><td>Streamlit • Gradio • Plotly • Matplotlib • Seaborn • Next.js • HTML/CSS/JS</td></tr><tr><td>Genai Developer Tools</td><td>Claude Code • GitHub Copilot • Cursor • Windsurf • Continue • Cline • Aider • Goose</td></tr><tr><td>Leadership &amp; Delivery</td><td>Team Building • Technical Hiring • Mentoring • Technical Roadmapping • Stakeholder Communication • HIPAA Compliance • Agile / Scrum • Risk Management • JIRA • Cross-Functional Training</td></tr></table>
+<h2>PROFESSIONAL EXPERIENCE</h2>
+<div><div class="experience-header"><strong>Cellworks - Lead Scientist Bioinformatics</strong><em>2024 - Present</em></div><ul><li>Led the Bioinformatics R&amp;D team: defined technical roadmap, recruited and mentored scientists, drove project prioritization, and aligned strategy with executive leadership.</li><li>Designed multi-agent orchestration workflows for vendor order management, coordinating specialized agents, external tools, and contextual memory with human-in-the-loop validation at critical decision points.</li><li>Designed and maintained golden datasets, benchmark queries, and expected-answer sets that powered repeatable evaluation of retrieval quality, response accuracy, hallucination reduction, and regression testing across GenAI applications.</li><li>Built reusable prompt libraries and test suites (zero-shot, few-shot, role-based, multi-turn, edge-case) using Promptfoo and DeepEval to validate GenAI feature accuracy and consistency before release.</li><li>Built multi-stage annotation and prioritization pipelines applying AMP/ASCO/CAP guidelines across public and proprietary annotation sources.</li><li>Designed and implemented input ingestion, monitoring, and reporting frameworks that reduced manual review time by 20%.</li><li>Established risk management practices for bioinformatics pipelines - identified potential failure points, data-quality risks, and downstream repercussions, and implemented mitigation strategies.</li><li>Designed structured upskilling sessions leveraging supplemental projects beyond core deliverables, improving engagement, critical thinking, and problem-solving across team members.</li></ul></div>
+<div><div class="experience-header"><strong>Cellworks - Senior Scientist, Reporting Manager</strong><em>2021 - 2024</em></div><ul><li>Developed comprehensive workflows for microsatellite instability (MSI), homologous recombination deficiency (HRD), mutational signatures, tumor mutational burden (TMB), and indel burden.</li><li>Built high-throughput variant calling stacks on AWS following GATK best practices, including mutation and CNV calling, and biomarker extraction.</li><li>Built and led the bioinformatics team: recruited, trained, mentored, and reviewed the work of 4 members; created custom training protocols that accelerated onboarding and competency development.</li><li>Designed input-agnostic workflows supporting multiple formats (FASTQ, BAM, VCF, structured reports) across diverse commercial vendors (4BC, Tempus, Caris, Foundation Medicine, Alacris).</li><li>Built cancer driver and copy number variation (CNV) vs. mRNA expression correlation databases for 30+ cancer types using public datasets and computational tools.</li><li>Developed automated multi-omics interpretation pipelines for high-impact clinical trial datasets from biopharma partners including Takeda and Genentech.</li><li>Created an in-house Variant of Uncertain Significance (VUS) reclassification pipeline using an Ensembl-based approach, improving classification accuracy by &gt;40%.</li><li>Analyzed single-cell RNA-seq data from Human Protein Atlas normal-tissue samples with Seurat, Scanpy, and limma to establish in-silico control baselines for distinguishing cancer-specific expression signatures.</li><li>Applied CIBERSORTx and MuSiC bulk RNA-seq deconvolution to resolve cancer-specific markers within heterogeneous tumor samples and improve multi-omics interpretation.</li></ul></div>
+<div><div class="experience-header"><strong>Cellworks - Senior Scientist, Bioinformatics</strong><em>2018 - 2021</em></div><ul><li>Developed and benchmarked secondary analysis pipelines (Illumina DRAGEN, NVIDIA Parabricks, Sentieon), optimized for turnaround time, resource cost, and variant calling accuracy.</li><li>Led custom panel design for liquid-biopsy samples; collaborated with Cleveland Clinic Florida to build a machine learning pipeline using longitudinal genomic data to predict early relapse in Melanoma.</li><li>Built an analytical framework to process pediatric cancer cases; served as primary domain owner for pediatric hematological malignancies.</li><li>Designed and implemented a Panel of Normals (PoN) workflow for CNV and mutation calling using ~100 cases, improving support for tumor-only clinical analyses.</li><li>Created multiple tertiary analysis workflows (GSEA, pathway enrichment, PCA, statistical models, ML pipelines) for biomarker discovery and treatment-response characterization.</li><li>Developed multi-omics interpretation pipelines for the Foundation Medicine clinical genomic dataset (18,000+ patient cases).</li><li>Compiled a comprehensive diagnostic assay and genomic test inventory across 88 cancer types based on NCCN, FDA, and international clinical guidelines.</li></ul></div>
+<div><div class="experience-header"><strong>Cellworks - Scientist, Clinical Translation</strong><em>2017 - 2018</em></div><ul><li>Curated therapeutic rationale libraries to support computational biology predictions, reducing turnaround time for live clinical case analyses by &gt;40%.</li><li>Analyzed 200+ complex cancer cases, gaining deep expertise in target selection using biological network models and drug interaction mechanisms in precision oncology.</li><li>Conducted rigorous benchmarking of external sequencing pipelines (DNAnexus, BeOne, MedGenome) to establish analytical validity, confidence, and cross-platform reproducibility.</li><li>Developed an in-house variant annotation and filtering pipeline with a custom tier classification system, lowering processing costs and enabling clinical interpretability.</li></ul></div>
+<div><div class="experience-header"><strong>Cellworks - Associate Scientist</strong><em>2015 - 2017</em></div><ul><li>Processed, interpreted, and harmonized multi-omics outputs (karyotyping, aCGH, IHC, somatic mutations) for &gt;500 cases, translating insights into automated data-harmonization ETL pipelines.</li><li>Curated and automated retrospective in-house dataset creation by integrating patient and cell-line data from &gt;10,000 GDSC, TCGA, and published clinical studies.</li><li>Standardized genomic data interpretation from external medical partners including Columbia University, University of Florida, Cedars-Sinai, Mayo Clinic, and Washington University.</li><li>Automated report-generation workflows using reproducible pipelines and templates, reducing preparation time from ~15 hours to just minutes per week.</li></ul></div>
+<h2>KEY PROJECTS &amp; INNOVATIONS</h2>
+<div><div class="experience-header"><strong>SQL Chat</strong><em>Multi-Agent • NL2SQL • LangChain • SQLite • Streamlit</em></div><ul><li>Multi-agent Streamlit application that translates natural language clinical queries to SQL, executes statistical tests, and returns interpretable Markdown summaries for researchers.</li></ul></div>
+<div><div class="experience-header"><strong>Phenotype-Driven Rare Disease Prioritization Pipeline</strong><em>Nextflow • Python • HPO (Human Phenotype Ontology) • ACMG Guidelines • Variant Prioritization</em></div><ul><li>End-to-end tertiary analysis pipeline for phenotype-based gene prioritization, variant selection, and clinical reporting in rare genetic disorders. Awarded Top Rank at Bangalore Tech Summit 2025.</li></ul></div>
+<h2>EDUCATION</h2>
+<p><strong>B.Tech in Biotechnology</strong> — JNTUA College of Engineering Pulivendula (JNTUA CEP) (<em>2015</em>)</p>
+<h2>HONORS &amp; AWARDS</h2>
+<ul>
+<li><strong>Bangalore Tech Summit 2025 Top Rank (Independent Research) (2025)</strong>: Awarded Top Rank at Bangalore Tech Summit 2025 as an independent researcher for architecting a phenotype-based gene prioritization and tertiary analysis pipeline for rare disease diagnostics.</li>
+</ul>
+<h2>SELECTED PUBLICATIONS</h2>
+<ul>
+<li>Castro M, ..., Poornachandra G, et al. Combination chemotherapy versus temozolomide for patients with methylated MGMT glioblastoma: computational biological modeling predictions. J Neurooncol. 2021;153(3):393-402.</li>
+<li>Castro M, ..., Poornachandra G, et al. Cellworks Omics Biology Model (CBM) to predict therapy response and identify novel biomarkers for 5FU-based combination therapy in gastric cancer patients. J Clin Oncol. 2021;39(15_suppl):e16024.</li>
+<li>Marcucci G, ..., Poornachandra G, et al. Biosimulation using CBM identifies novel biomarkers to inform MEC-based combination therapy in refractory &amp; relapsed AML patients. Blood. 2021;138(Suppl_1).</li>
+<li>Castro M, ..., Poornachandra G, et al. Biosimulation using CBM-based assessment of cytarabine and anthracycline response in AML. Blood. 2021;138(Suppl_1).</li>
+<li>Howard SC, ..., Poornachandra G, et al. Therapy biosimulation using CBM is predictive of individual AML patient probability of CR and OS: MyCare-023. Blood. 2021;138(Suppl_1).</li>
+</ul>
+        </div>
+    </body>
+    </html>
+    

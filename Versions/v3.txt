@@ -1,0 +1,110 @@
+Poornachandra G.
+Agentic AI Engineer | LLMs, RAG & Multi-Agent Systems | AI/ML Solution Architecture
+ poornachandra.gedi@gmail.com  •    +91-7899 419758  •    Bengaluru, India  •  ✉☎📍LinkedIn  •  Portfolio
+PROFESSIONAL SUMMARY
+AI/ML Engineer with 10+ years of experience designing and delivering end-to-end AI solutions, specializing in agentic AI, 
+LLMs, RAG, and multi-agent systems. Experienced in solution architecture, agent orchestration, prompt engineering, 
+retrieval pipelines, model evaluation, and responsible AI practices. Hands-on expertise building enterprise GenAI 
+applications using LangChain, LangGraph, Azure AI Foundry, Azure AI Search, and MLflow. Skilled at translating complex 
+business use cases into scalable, AI-driven automation that improves user experience, enhances process efficiency, and 
+delivers production-ready solutions through software engineering best practices and cross-functional collaboration. 
+SKILLS & TECHNOLOGIES
+Agentic AI & 
+Orchestration
+LangChain • LangGraph • CrewAI • OpenAI Agents SDK • Multi-Agent Systems • MCP (Model 
+Context Protocol) • Agent Orchestration • Tool Integration • Memory Management • Human-
+in-the-Loop Workflows
+RAG, Retrieval & 
+Embeddings
+RAG Pipeline Design • GraphRAG • Semantic Search • Azure AI Search • Neo4j • Embeddings • 
+Chroma • Pinecone • Qdrant • Chunking Strategy Design • Retrieval Quality Validation • 
+Golden Dataset Design
+LLMs & Generative AI OpenAI / Anthropic / Gemini APIs • Fine-Tuning • LoRA/QLoRA • Quantization • Ollama • AI 
+Playgrounds
+Prompt Engineering Zero-shot / Few-shot / Role-based / Multi-turn Prompt Design • Prompt Lifecycle Management 
+• Prompt Versioning • Context Engineering • Prompt Optimization
+GenAI Evaluations & 
+Responsible AI
+Promptfoo • DeepEval • Ragas • LangSmith • Langfuse • LLM-as-a-Judge (LLMaaJ) • 
+Hallucination Analysis • Accuracy Benchmarking • Bias & Fairness Assessment • Red Teaming • 
+Responsible AI Governance, Security & Privacy
+Machine Learning PyTorch • scikit-learn • LightGBM • XGBoost • Feature Engineering • SHAP • pandas • NumPy • 
+SciPy • MLOps • MLflow
+Cloud & Data Platforms Azure (AI Foundry, AI Agents, AI Search, Blob Storage) • AWS (EC2, S3, Batch) • Databricks
+GenAI Developer Tools Claude Code • GitHub Copilot • Microsoft Copilot Studio • Cursor • Codex • Windsurf
+Software Engineering & 
+DevOps
+Python • SQL • Bash • FastAPI • Docker • Git • GitHub Actions • CI/CD • Automated Testing • 
+Pytest • Pydantic
+Delivery & Leadership
+Solution Architecture • Technical Roadmapping • Team Building & Mentoring • Agile/Scrum • 
+JIRA • Confluence • AI enablement • Stakeholder Communication • HIPAA Compliance • Risk 
+Management
+PROFESSIONAL EXPERIENCE
+Cellworks - Lead Clinical Translation                          2024 - Present
+Designed multi-agent orchestration workflows for vendor order management, coordinating specialized agents, external 
+tools, and contextual memory with human-in-the-loop validation at critical decision points.
+Built enterprise RAG pipelines with LangChain and Azure AI Search, deploying them on Azure AI Foundry to automate 
+knowledge discovery across biomedical literature and proprietary knowledge bases.
+Assessed vector store solutions (Chroma, Pinecone, Qdrant) for RAG retrieval, tuning chunking strategy and embedding 
+configuration to improve retrieval precision and reduce hallucination rates.
+Created prompt libraries and AI evaluation pipelines with Promptfoo and DeepEval, integrating version-controlled 
+prompts and benchmarks into CI/CD to validate retrieval accuracy, consistency, hallucination, and regression before 
+release.
+Developed golden datasets and benchmark queries to continuously evaluate retrieval quality and response accuracy, 
+reducing post-deployment defects by 30%.
+Established responsible AI governance, security, and privacy checkpoints, including red-team testing and release gates, 
+to guarantee safe and production-ready GenAI deployments.
+Led AI enablement programs and mentored engineers on agentic AI, prompt engineering, GenAI solutions, prompt 
+engineering and evaluation best practices, driving org-wide GenAI adoption.
+Cellworks - Senior Scientist, Reporting Manager                               2021 - 2024
+Drove early adoption of LLM-assisted, RAG-based workflows for oncology therapy recommendations, integrating 
+prompt engineering, knowledge indexing, and structured output evaluation.
+Designed an in-house ensemble-based ML variant reclassification pipeline, improving classification accuracy by 40%+; 
+established reproducible ML workflows with MLflow for experiment tracking and model versioning.
+Built cloud-native data platforms on AWS and Databricks, engineering scalable ETL pipelines that feed ML and GenAI 
+workloads.
+Built and led a technical team that conducted competitive technical analysis of market-leading healthcare AI/ML 
+platforms while establishing core engineering standards, including modular design, automated CI/CD, and rigorous 
+code reviews.
+Delivered reusable documentation, SOPs, and training modules to standardize process adoption across teams. 
+Cellworks - Senior Scientist, Clinical Translation                                                           2018 - 2021
+Built a machine learning pipeline using longitudinal time-series data to predict early disease relapse, applying feature 
+engineering and model validation methodology.
+Developed and benchmarked high-throughput data processing pipelines, applying structured accuracy, performance, 
+and reproducibility evaluation methodology across pipeline versions.
+Created a validation framework for an edge-clinical case category, defining acceptance criteria, structured quality 
+checkpoints, and classification guidelines to standardize simulation modeling.
+Built graph analytics pipelines with NetworkX to pinpoint influential nodes and derive network-based insights for 
+data-driven decision making.
+Created reusable statistical modeling pipelines to enable data-driven discovery, employing reproducible experiment 
+design and validation.
+Cellworks - Scientist, Clinical Translation                                             2017 - 2018
+Engineered a Python rule-based variant classification framework to automate prioritization and standardize decision 
+support.
+Developed an in-house variant annotation and filtering engine (Python, SQL), automating workflows and enabling 
+downstream analytics.
+Acted as a technical bridge between engineering R&D and core development teams, accelerating product delivery 
+through rapid prototyping and the automation of scalable data processing pipelines
+Implemented automated unit and integration tests with Pytest, increasing code reliability and enabling consistent 
+validation of software releases through CI/CD.
+Cellworks - Associate Scientist                                              2015 - 2017
+Automated report generation and ETL workflows using Python and SQL, reducing weekly processing time from ~15 
+hours to minutes.
+Standardized and automated large-scale data harmonization and ETL workflows across 500+ clinical
+cases and 10,000+ external records, enhancing data quality and processing consistency.
+Coordinated data standardization initiatives for data from multiple external partner institutions, ensuring consistent 
+data formats, validation rules, and integration requirements.
+INDEPENDENT PROJECTS
+Inferverse: Created a unified interface for discovery, categorization, proxy configuration, and benchmarking of open 
+generative AI APIs (NVIDIA NIM, Mistral, Groq, OpenRouter, Ollama, PublicAI)
+PathoParse: LLM-assisted and rule-based pipelines to extract structured clinical metadata from unstructured pathology 
+reports.
+SQLChat: CrewAI multi-agent system translating natural-language queries into SQL, running statistical validation checks, 
+and producing stakeholder-ready summaries.
+EDUCATION
+B.Tech, Biotechnology - JNTUA CEP                               2015
+PUBLICATIONS & ABSTRACTS
+Co-author on 9 peer-reviewed publications and conference abstracts (J Neurooncol, J Clin Oncol, Blood/ASCO) on 
+computational biomarker modeling and therapy-response prediction, 2018-2021.  (Available on ORCID: 0009-0009-1610-
+1205)

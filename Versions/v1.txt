@@ -1,0 +1,183 @@
+Poornachandra G.Lead Bioinformatics Scientist | Precision Oncology | NGS Architecture & Agentic AI Systems
+ poornachandra.gedi@gmail.com  •    +91-7899 419758  •    Bengaluru, India  •  ✉☎📍LinkedIn  •  ORCID  •  Portfolio
+PROFESSIONAL SUMMARY
+Bioinformatics Lead Scientist with 10+ years of experience in precision medicine in oncology. Expert in designing, 
+building and productionizing end-to-end NGS and multi-omics pipelines for clinical workflows. Conceived and built 
+the company's cross-functional Bioinformatics stack from scratch, delivering reproducible, scalable, and 
+regulatory-ready solutions that integrate NGS analysis, clinical variant interpretation, and data-driven insights. 
+Active builder of AI powered tools spanning multi-agent systems, full-stack applications, and developer tooling.
+SELECTED HIGHLIGHTS & IMPACT
+Built and productionized end-to-end NGS pipelines (WGS/WES/TES, RNA-Seq, CNV, SV) used in clinical 
+and research workflows; reduced sample turnaround time through automated QC and reporting.
+Architected variant annotation and prioritization workflows (ACMG/AMP/ASCO/CAP) integrating multiple 
+public and proprietary annotations to enable clinical decision support.
+Led ML initiatives for biomarker discovery and patient stratification: feature engineering from multi-omics 
+inputs, model validation, and deployment in production environments.
+Mentored and grew a bioinformatics team; led technical hiring, performance reviews and cross-functional 
+training.
+Independently built 12+ independent AI  projects spanning LLM tooling, multi-agent frameworks, clinical AI 
+apps, and developer infrastructure, demonstrating end-to-end product ownership beyond core role.
+Delivered internal web applications and dashboards (Streamlit, Gradio, FastAPI) to deploy AI-based 
+applications.
+SKILLS & TECHNOLOGIES
+NGS & Clinical-omics
+WGS • WES • TES • RNA-Seq • scRNA-Seq • Liquid Biopsy • Pharmacogenomics • 
+Companion Diagnostics • Variant Interpretation (ACMG/AMP/ASCO/CAP) • MSI • 
+HRD • TMB • CNV • SV
+Bioinformatics & 
+Pipeline Engineering
+GATK • Sentieon • DRAGEN • NVIDIA Parabricks • FreeBayes • DeepVariant • 
+DeepSomatic • PureCN • CNVKit • VEP • ANNOVAR • Nextflow • QC Automation • 
+Benchmarking • Reproducibility • Kallisto • Salmon • DESeq2 • edgeR • Seurat • 
+Scanpy • GSEA
+Machine Learning & AI
+Supervised/Unsupervised Learning • Feature Engineering • LightGBM • XGBoost • 
+PyTorch • TensorFlow • scikit-learn • PyCaret • AutoML • PySpark • SHAP • scipy • 
+pandas • NumPy • R
+LLMs & Agentic 
+System
+LangChain • LangGraph • Ollama • OpenAI/Anthropic/Gemini APIs • RAG Pipelines • 
+Multi-Agent Systems • Prompt Engineering • Fine-Tuning • Quantization • 
+LoRA/QLoRA • LiteLLM • MCP • W&B
+Programming & 
+Engineering Python • Bash • R • FastAPI • SQLite • REST APIs • Uvicorn
+Cloud, Platforms & 
+Infrastructure
+AWS (EC2, S3, Batch, HealthOmics) • DNAnexus • BaseSpace • Galaxy • 
+GenePattern • Terra/FireCloud • Illumina Connected Analytics • Docker • Git • CI/CD 
+• Conda/Mamba • Jupyter • HPC • MLOps
+NLP, OCR & 
+Document AI
+Hugging Face Transformers • LayoutLMv3 • BioBERT • scispaCy • NLTK • Tesseract 
+• EasyOCR • PyMuPDF • Docling • unstructured.io • OpenCV
+Visualization & UI Streamlit • Gradio • Plotly • Matplotlib • Seaborn
+GenAI Developer Tool Claude Code • Antigravity • Codex • Cursor • GitHub Copilot • Windsurf • Continue • 
+Kiro • Cline • OpenCode • OpenClaw • Replit • Aider • Goose
+Leadership & Delivery
+Team Building • Hiring • Mentoring • Technical Roadmapping • Stakeholder 
+Communication • HIPAA Compliance • Agile • Scrum • Risk Management • JIRA • 
+Trello
+PROFESSIONAL EXPERIENCE
+Cellworks - Lead Bioinformatician                                                                                      2024 - Present
+Led the Bioinformatics R&D team - defined the technical roadmap, recruited and mentored scientists, and 
+drove project prioritization and delivery.
+Designed structured upskilling sessions leveraging supplemental projects beyond core deliverables, 
+improving engagement, critical thinking, and problem-solving.
+Designed and implemented input ingestion, monitoring, and reporting frameworks that reduced manual 
+review time by 20%.
+Built multi-stage annotation and prioritization pipelines applying AMP/ASCO/CAP guidelines across public 
+and proprietary annotation sources.
+Partnered with executive leadership to align strategy and communicate progress, while providing team 
+members with the broader context needed to execute effectively.
+Established risk management practices for bioinformatics pipelines - identified potential failure points, data-
+quality risks, and downstream repercussions, and implemented mitigation strategies.
+Cellworks - Senior Scientist, Reporting Manager                                                   2021 - 2024
+Developed workflows for MSI, HRD, mutation signatures, TMB, and indel burden.
+Built high-throughput variant calling stacks on AWS following GATK best practices, including mutation and 
+CNV calling, and biomarker extraction.
+Built and led the bioinformatics team: recruited, trained, mentored, and reviewed the work of 4 members; 
+created custom training protocols that accelerated onboarding and competency development.
+Designed input-agnostic workflows supporting multiple formats (FASTQ, BAM, VCF, structured reports) 
+across diverse vendors (4BC, Tempus, Caris, Foundation Medicine, Alacris, etc.).
+Built cancer driver and CNV vs. mRNA databases for 30+ cancer types using public datasets/tools.
+Developed automated multi-omics interpretation pipelines for high-impact clinical trial datasets from Takeda 
+and Genentech.
+Created an in-house VUS reclassification pipeline using an Ensembl-based approach, improving 
+classification accuracy by >40%.
+Cellworks - Senior Scientist, Bioinformatics                                                             2018 - 2021
+Developed and benchmarked secondary analysis pipelines (Illumina DRAGEN, NVIDIA Parabricks, 
+Sentieon), optimized for accuracy and turnaround time.
+Led custom panel design for liquid-biopsy samples; collaborated with Cleveland Clinic Florida to build an ML 
+pipeline using longitudinal genomic data to predict early relapse in Melanoma.
+Built a framework to process pediatric cancer cases; served as primary owner for pediatric hematological 
+cancers.
+Designed and implemented a Panel of Normals (PoN) workflow for CNV and mutation calling using ~100 
+cases, improving support for tumor-only analyses.
+Created multiple tertiary analysis workflows (GSEA, pathway enrichment, PCA, statistical models, ML 
+pipelines) for biomarker discovery and treatment-response characterization.
+Developed multi-omics interpretation pipelines for the Foundation Medicine dataset (18,000+ cases).
+Compiled a comprehensive assay/test inventory across 88 cancers based on NCCN, FDA, and other clinical 
+guidelines.
+Cellworks - Scientist, Clinical Translation                                                               2017 - 2018
+Curated rationale libraries to support therapy predictions, reducing turnaround time for live case analyses by 
+>40%.
+Analyzed 200+ cancer cases, gaining deep expertise in target selection using cancer and drug networks in 
+precision oncology.
+Conducted benchmarking of sequencing pipelines (DNAnexus, BeOne, MedGenome) to establish 
+confidence and reproducibility.
+Developed an in-house variant annotation and filtering pipeline, lowering processing costs and enabling 
+greater customization.
+Implemented a custom variant-tier classification system to improve prioritization and enhance interpretability 
+of genomic reports.
+Cellworks - Associate Scientist                                                                                                 2015 - 2017
+Processed, interpreted, and harmonized multi-omics outputs (karyotyping, aCGH, IHC, mutations) for >500 
+cases, translating insights into automated data-harmonization and ETL pipelines.
+Curated and automated retrospective in-house dataset creation by integrating patient and cell-line data from 
+>10,000 GDSC, TCGA, and published studies.
+Standardized genomic data interpretation from external partners (Columbia University, University of Florida, 
+Cedars-Sinai, Mayo Clinic, Washington University, MMRF-Michigan).
+Automated report-generation workflows using reproducible pipelines and templates, reducing preparation 
+time from ~15 hours to just minutes per week.
+AI & INDEPENDENT PROJECTS
+Clinical & Bioinformatics AI
+Evaline: Interactive chatbot combining a fine-tuned open-source LLM with a RAG pipeline to deliver 
+guideline-based treatment recommendations and patient-friendly explanations.
+PathoParse: LLM-assisted and rule-based pipelines to extract structured clinical metadata from unstructured 
+pathology reports for downstream analysis.
+SQL Chat: Multi-agent Streamlit demo that translates natural language clinical queries to SQL, runs 
+statistical tests, and returns interpretable Markdown summaries for non-technical users.
+VarEffex: Multi-agent framework that mines literature to extract variant-function associations.
+Agentic & LLM Tooling
+AnalomX: Local-first agentic exploratory data analysis framework for tabular datasets (CSV/TSV). Multi-
+agent workflow with automatic profiling, code-driven analysis, critique loop, and report generation 
+(Markdown/HTML/PDF/Notebook). FastAPI backend with browser UI.
+DigiTeam: Framework for building a digital version of bioinformatics team. Captures team context, skills, 
+SOPs, intake workflows, MCP resource access and guardrails - designed for future CrewAI-style agent 
+orchestration.
+MemorAI: Personal AI context database stored as plain Markdown for Obsidian. Captures professional and 
+personal context as linked atomic notes so AI systems can understand user context without repeated re-
+explanation.
+Full-Stack Applications
+JobAIder: Production-ready AI job application assistant. Builds master professional profiles, analyzes job 
+descriptions, performs gap analysis, generates ATS-optimized resumes, and runs mock interviews. Stack: 
+FastAPI + Next.js+ LangChain + SQLite.
+HealthForge: AI-assisted health planning platform. Manages health profiles, generates AI-based health 
+plans, supports AI chat in profile context, and schedules WhatsApp reminders. Stack: Next.js, SQLite, 
+Baileys, node-cron.
+LinkeDjin: Comprehensive LinkedIn content generation suite. Features interactive CLI, non-interactive CLI 
+for automation, FastAPI web GUI, cron-based scheduling, draft library, LinkedIn-ready Unicode formatting, 
+and auto-posting integration.
+Developer Tooling & Infrastructure
+Inferverse: LiteLLM configuration generator and local AI proxy. Automates discovery and categorization of 
+models across NVIDIA NIM, Mistral, Groq, OpenRouter, Ollama, and PublicAI. Includes a Claude Code 
+bridge for Claude Code and VS Code’s Continue integration.
+Tragic (TRAde loGIC): Portfolio stop-loss and re-entry dashboard for Indian investors trading US stocks. 
+Live Yahoo Finance prices, 4-tier re-entry levels, STCG/LTCG tax calculator, price charts, and MCP server 
+for Claude Desktop integration.
+EDUCATION
+B.Tech, Biotechnology - JNTUA CEP                                                                                     2015
+SELECTED PUBLICATIONS & ABSTRACTS
+Peer-Reviewed Journals
+Castro M, ..., Poornachandra G, et al. Combination chemotherapy versus temozolomide for patients with 
+methylated MGMT glioblastoma: computational biological modeling predictions. J Neurooncol. 
+2021;153(3):393-402.
+Castro M, ..., Poornachandra G, et al. Cellworks Omics Biology Model (CBM) to predict therapy response 
+and identify novel biomarkers for 5FU-based combination therapy in gastric cancer patients. J Clin Oncol. 
+2021;39(15_suppl):e16024.
+Conference Abstracts (Blood, ASCO, JCO)
+Marcucci G, ..., Poornachandra G, et al. Biosimulation using CBM identifies novel biomarkers to inform 
+MEC-based combination therapy in refractory & relapsed AML patients. Blood. 2021;138(Suppl_1).
+Castro M, ..., Poornachandra G, et al. Biosimulation using CBM-based assessment of cytarabine and 
+anthracycline response in AML. Blood. 2021;138(Suppl_1).
+Howard SC, ..., Poornachandra G, et al. Therapy biosimulation using CBM is predictive of individual AML 
+patient probability of CR and OS: MyCare-023. Blood. 2021;138(Suppl_1).
+Castro M, ..., Poornachandra G, et al. Monosomy 7 and co-occurrent genomic aberrations determine 
+chemotherapy response in AML: MyCare-021-04. Blood. 2020;136(Suppl_1).
+Howard SC, ..., Poornachandra G, et al. Predicting resistance to ATO and ATRA in APL patients with PML-
+RARA fusions: MyCare-021-01. Blood. 2020;136(Suppl_1).
+Ahluwalia MS, ..., Poornachandra G, et al. Superior therapy response predictions for LGG using Cellworks 
+Singula: MyCare-009-04. J Clin Oncol. 2020;38(15_suppl):e13541.
+Vali S, ..., Poornachandra G, et al. Analysis of evolving MDS/AML clones to identify resistance 
+mechanisms: iCare1. Blood. 2018;132(Suppl_1).
+Vij R, ..., Poornachandra G, et al. Predicting response to azacitidine or lenalidomide/azacitidine combination 
+in MDS and AML using CBM. Blood. 2018;132(Suppl_1).

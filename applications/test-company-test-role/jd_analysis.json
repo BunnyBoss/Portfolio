@@ -1,0 +1,109 @@
+{
+  "target": {
+    "company": "BioGen",
+    "role": "Lead AI Systems Engineer",
+    "company_slug": "biogen",
+    "role_slug": "lead-ai-systems-engineer"
+  },
+  "archetype": {
+    "key": "agentic_ai_engineer",
+    "name": "Agentic AI Engineer / LLMs & Multi-Agent Systems",
+    "recommended_summary": "AI/ML Engineer with 10+ years of technical experience designing and delivering end-to-end AI solutions, specializing in agentic AI, LLMs, RAG, and multi-agent systems. Experienced in solution architecture, agent orchestration, prompt engineering, retrieval pipelines, model evaluation, and responsible AI practices. Hands-on expertise building enterprise GenAI applications using LangChain, LangGraph, Azure AI Foundry, and observability stacks. Skilled at translating complex domain use cases into scalable, automated workflows with human-in-the-loop controls."
+  },
+  "match_metrics": {
+    "estimated_match_score": "55%",
+    "matched_skills_count": 6,
+    "matched_projects_count": 4
+  },
+  "matched_skills_by_category": {
+    "pipeline_engineering": [
+      "Nextflow"
+    ],
+    "programming_engineering": [
+      "Python",
+      "FastAPI"
+    ],
+    "llms_agentic_systems": [
+      "LangChain",
+      "LangGraph",
+      "RAG Pipelines"
+    ]
+  },
+  "potential_gaps_or_bonus_terms": [],
+  "top_recommended_projects": [
+    {
+      "id": "proj_vareffex",
+      "name": "VarEffex",
+      "category": "Clinical & Bioinformatics AI",
+      "score": 9,
+      "reasons": [
+        "Tag matched: Multi-Agent",
+        "Tag matched: LangGraph"
+      ],
+      "summary": "Multi-agent framework that autonomously searches biomedical literature to extract variant-function associations, functional impacts, and biomarker evidence under ACMG/AMP criteria.",
+      "tags": [
+        "Multi-Agent",
+        "Literature Mining",
+        "PubMed API",
+        "LangGraph",
+        "ACMG"
+      ]
+    },
+    {
+      "id": "proj_sql_chat",
+      "name": "SQL Chat",
+      "category": "Full-Stack Applications",
+      "score": 9,
+      "reasons": [
+        "Tag matched: Multi-Agent",
+        "Tag matched: LangChain"
+      ],
+      "summary": "Multi-agent Streamlit application that translates natural language clinical queries to SQL, executes statistical tests, and returns interpretable Markdown summaries for researchers.",
+      "tags": [
+        "Multi-Agent",
+        "NL2SQL",
+        "LangChain",
+        "SQLite",
+        "Streamlit"
+      ]
+    },
+    {
+      "id": "proj_rare_disease_pipeline",
+      "name": "Phenotype-Driven Rare Disease Prioritization Pipeline",
+      "category": "Clinical & Bioinformatics AI",
+      "score": 8,
+      "reasons": [
+        "Tag matched: Nextflow",
+        "Tag matched: Python"
+      ],
+      "summary": "End-to-end tertiary analysis pipeline for phenotype-based gene prioritization, variant selection, and clinical reporting in rare genetic disorders. Awarded Top Rank at Bangalore Tech Summit 2025.",
+      "tags": [
+        "Nextflow",
+        "Python",
+        "HPO (Human Phenotype Ontology)",
+        "ACMG Guidelines",
+        "Variant Prioritization"
+      ]
+    },
+    {
+      "id": "proj_pathoparse",
+      "name": "PathoParse",
+      "category": "Clinical & Bioinformatics AI",
+      "score": 2,
+      "reasons": [],
+      "summary": "LLM-assisted and rule-based pipelines to extract structured clinical metadata and biomarker stages from unstructured pathology and histology reports for downstream analysis.",
+      "tags": [
+        "NLP",
+        "BioBERT",
+        "Document AI",
+        "LayoutLMv3",
+        "Tesseract OCR"
+      ]
+    }
+  ],
+  "talking_points": [
+    "Tailored for BioGen's Lead AI Systems Engineer opening with focus on Agentic AI Engineer / LLMs & Multi-Agent Systems.",
+    "Emphasize 10+ years of clinical & production bioinformatics and modern AI engineering.",
+    "Leverage relevant hands-on projects: VarEffex, SQL Chat, Phenotype-Driven Rare Disease Prioritization Pipeline."
+  ]
+}

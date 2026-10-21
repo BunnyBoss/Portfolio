@@ -1,0 +1,8 @@
+# Core dependencies for Resume PDF Generation & Web Research Tools
+weasyprint>=70.0
+Markdown>=3.10.0
+beautifulsoup4>=4.15.0
+requests>=2.34.0
+html2text>=2025.4.15
+pandas>=2.2.0
+

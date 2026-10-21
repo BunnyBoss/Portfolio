@@ -1,0 +1,115 @@
+{
+  "target": {
+    "company": "Amgen",
+    "role": "Bioinformatics & AI Engineer",
+    "company_slug": "amgen",
+    "role_slug": "bioinformatics-ai-engineer"
+  },
+  "archetype": {
+    "key": "bioinformatics_lead",
+    "name": "Lead Bioinformatics Scientist / Clinical Genomics",
+    "recommended_summary": "Bioinformatics Lead Scientist with 10+ years of experience in precision medicine across oncology and rare diseases. Expert in designing, building, and productionizing end-to-end applied bioinformatics and multi-omics pipelines for clinical workflows. Conceived and built comprehensive cross-functional bioinformatics stacks from scratch, delivering reproducible, scalable, and regulatory-ready solutions that integrate NGS analysis, clinical variant interpretation, phenotype-based prioritization, and data-driven insights. Active builder of AI-powered tools spanning multi-agent systems, clinical AI apps, and developer infrastructure."
+  },
+  "match_metrics": {
+    "estimated_match_score": "60%",
+    "matched_skills_count": 12,
+    "matched_projects_count": 4
+  },
+  "matched_skills_by_category": {
+    "pipeline_engineering": [
+      "Nextflow",
+      "Benchmarking",
+      "Reproducibility",
+      "Seurat"
+    ],
+    "programming_engineering": [
+      "Python",
+      "R",
+      "Git",
+      "CI/CD"
+    ],
+    "cloud_infrastructure": [
+      "Docker",
+      "HPC"
+    ],
+    "machine_learning_ai": [
+      "R"
+    ],
+    "llms_agentic_systems": [
+      "Fine-Tuning"
+    ]
+  },
+  "potential_gaps_or_bonus_terms": [
+    "Snakemake"
+  ],
+  "top_recommended_projects": [
+    {
+      "id": "proj_rare_disease_pipeline",
+      "name": "Phenotype-Driven Rare Disease Prioritization Pipeline",
+      "category": "Clinical & Bioinformatics AI",
+      "score": 9,
+      "reasons": [
+        "Tag matched: Nextflow",
+        "Tag matched: Python"
+      ],
+      "summary": "End-to-end tertiary analysis pipeline for phenotype-based gene prioritization, variant selection, and clinical reporting in rare genetic disorders. Awarded Top Rank at Bangalore Tech Summit 2025.",
+      "tags": [
+        "Nextflow",
+        "Python",
+        "HPO (Human Phenotype Ontology)",
+        "ACMG Guidelines",
+        "Variant Prioritization"
+      ]
+    },
+    {
+      "id": "proj_pathoparse",
+      "name": "PathoParse",
+      "category": "Clinical & Bioinformatics AI",
+      "score": 8,
+      "reasons": [],
+      "summary": "LLM-assisted and rule-based pipelines to extract structured clinical metadata and biomarker stages from unstructured pathology and histology reports for downstream analysis.",
+      "tags": [
+        "NLP",
+        "BioBERT",
+        "Document AI",
+        "LayoutLMv3",
+        "Tesseract OCR"
+      ]
+    },
+    {
+      "id": "proj_vareffex",
+      "name": "VarEffex",
+      "category": "Clinical & Bioinformatics AI",
+      "score": 6,
+      "reasons": [],
+      "summary": "Multi-agent framework that autonomously searches biomedical literature to extract variant-function associations, functional impacts, and biomarker evidence under ACMG/AMP criteria.",
+      "tags": [
+        "Multi-Agent",
+        "Literature Mining",
+        "PubMed API",
+        "LangGraph",
+        "ACMG"
+      ]
+    },
+    {
+      "id": "proj_sql_chat",
+      "name": "SQL Chat",
+      "category": "Full-Stack Applications",
+      "score": 6,
+      "reasons": [],
+      "summary": "Multi-agent Streamlit application that translates natural language clinical queries to SQL, executes statistical tests, and returns interpretable Markdown summaries for researchers.",
+      "tags": [
+        "Multi-Agent",
+        "NL2SQL",
+        "LangChain",
+        "SQLite",
+        "Streamlit"
+      ]
+    }
+  ],
+  "talking_points": [
+    "Tailored for Amgen's Bioinformatics & AI Engineer opening with focus on Lead Bioinformatics Scientist / Clinical Genomics.",
+    "Emphasize 10+ years of clinical & production bioinformatics and modern AI engineering.",
+    "Leverage relevant hands-on projects: Phenotype-Driven Rare Disease Prioritization Pipeline, PathoParse, VarEffex."
+  ]
+}

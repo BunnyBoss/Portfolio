@@ -1,0 +1,142 @@
+
+
+
+
+4
+
+Automatic Zoom
+Poornachandra G.
+Bioinformatics & Multi-Omics Leader | Precision Oncology | AI-Augmented Biomedical Data Science
+ poornachandra.gedi@gmail.com  •    +91-7899 419758  •    Bengaluru, India  •  ✉☎📍LinkedIn  •  Portfolio
+PROFESSIONAL SUMMARY
+Bioinformatics and multi-omics leader with 10+ years in precision oncology, leading scientists and owning technical delivery 
+across R&D, clinical, and biopharma collaborations, including Takeda, Genentech, Cleveland Clinic Florida and Bugworks. 
+Translates complex biomedical data into decision-ready insights by integrating multi-omics with clinical, literature, and 
+genetic evidence for target discovery and mechanism-of-action validation. Brings hands-on experience applying knowledge 
+graphs to CRISPR-screen, drug-screen, and DepMap data, alongside LLM and RAG pipelines (LangChain, Azure AI Foundry) 
+for literature mining and evidence integration. Combines technical roadmapping, team building, and cross-functional 
+stakeholder leadership to deliver reproducible analytical solutions for precision-medicine and drug-discovery workflows.
+SKILLS & TECHNOLOGIES
+Multi-Omics & 
+Biomedical Data
+Multi-Omics Data Integration • Biomedical Data Science • WGS • WES • TES • RNA-seq • 
+scRNA-seq • Spatial Transcriptomics • Liquid Biopsy • Clinical Genomics • Companion 
+Diagnostics • Variant Interpretation (ACMG/AMP/ASCO/CAP) • MSI • HRD • TMB • CNV • SV • 
+Karyotype • Bulk RNA-seq Deconvolution (CIBERSORTx, MuSiC) • Clinical-Trial Data Analysis • 
+Biomarker Discovery • Therapy-Response Prediction
+Clinico-omics Databases
+Flatiron Health CGDB • ConcertAI datasets • ClinVar • ClinGen • OncoKB • CIViC • cBioPortal • 
+GDC (Genomic Data Commons) • TCGA • CCLE • Cell Model Passports • LINCS • TARGET • HPA 
+(Human Protein Atlas) • GEO (Gene Expression Omnibus) • Single-Cell Atlases • COSMIC
+Target Discovery, 
+Validation & Human 
+Genetics
+Computational Target Discovery • Target Validation • Target-Indication Assessment • 
+Mechanism of Action (MOA) Validation • GWAS • Genetic Evidence Integration • Open Targets 
+• DepMap • CRISPR-Screen Data Analysis • Drug-Screen Data Analysis • NetworkX • Neo4j • 
+PyTorch Geometric (PyG) • Knowledge Graphs • Graph Analytics • Synthetic Lethality • 
+Essentiality Scoring • Evidence-Linked Target Prioritization
+Bioinformatics & Pipeline 
+Engineering
+NGS Pipeline Architecture • GATK • Sentieon • DRAGEN • NVIDIA Parabricks • FreeBayes • 
+DeepVariant • DeepSomatic • PureCN • CNVKit • VEP • ANNOVAR • Nextflow • ETL Pipelines • 
+Data Harmonization • QC Automation • Analytical Validation • Benchmarking • Reproducibility 
+• Kallisto • Salmon • DESeq2 • edgeR • Seurat • Scanpy • GSEA
+AI, Machine Learning & 
+LLMs
+Machine Learning • PyTorch • scikit-learn • LightGBM • XGBoost • Feature Engineering • SHAP 
+• pandas • NumPy • SciPy • MLOps • MLflow • Large Language Models (LLMs) • LangChain • 
+LangGraph • Retrieval-Augmented Generation (RAG) • RAG Pipeline Design • Azure AI Foundry 
+• Azure AI Search • Prompt Engineering • Biomedical Literature Mining • Evidence Extraction • 
+AI Evaluation Pipelines • Promptfoo • DeepEval • Golden Dataset Design • MCP
+Programming & DevOps Python • R • SQL • Bash • Docker • Git • CI/CD
+Cloud & Data Platforms AWS (EC2, S3, Batch, HealthOmics) • Azure • Databricks • DNAnexus • BaseSpace • Illumina 
+Connected Analytics • Conda/Mamba • Jupyter • HPC
+Scientific Delivery & 
+Leadership
+Technical Delivery Ownership • Technical Direction • Technical Roadmapping • BioPharma & 
+External Partner Collaboration • Cross-Functional Collaboration • Team Building • Hiring • 
+Mentoring • Project Prioritization • Resource Planning • Stakeholder Communication • Risk 
+Management • Quality Management • HIPAA Compliance • Agile • Scrum • JIRA • Confluence
+PROFESSIONAL EXPERIENCE
+Cellworks - Lead Clinical Translation                            2024 - Present
+Own technical delivery of multi-omics and clinical-genomics programs for precision oncology, translating NGS, variant, 
+and clinical evidence into decision-ready insights for pharma, clinical, and internal R&D stakeholders.
+Served as technical and data advisor for a target-indication assessment with Bugworks, leading computational analysis 
+of TCGA and cell-line omics profiles alongside drug-resistance perturbation data, including resistant-cell-line 
+sequencing and gene-knockdown screens, to develop an evidence-linked candidate target list and validate compound 
+mechanisms of action.
+Lead the bioinformatics team's technical roadmap across R&D and clinical workstreams; recruit and mentor scientists, 
+set delivery priorities, and align resources against concurrent partner commitments.
+Built and deployed LLM-powered RAG pipelines using LangChain and Azure AI Foundry to mine biomedical literature, 
+retrieve relevant evidence, and construct biological networks.
+Designed analytical validation studies for a multi-omics predictive-response program in NSCLC, establishing acceptance 
+criteria, validation protocols, and quality checkpoints for immunotherapy decision support.
+Established risk-management and quality practices for bioinformatics pipelines, identifying data-quality failure points 
+and implementing mitigation strategies before downstream delivery.
+Designed AI evaluation pipelines with Promptfoo and DeepEval, using golden datasets to assess retrieval accuracy and 
+reduce hallucination in GenAI-assisted biomedical workflows.
+Cellworks - Senior Scientist, Reporting Manager                                2021 - 2024
+Built and led a bioinformatics team, owning recruitment, onboarding, mentoring, technical review, and day-to-day 
+delivery of multi-omics interpretation work.
+Partnered directly with Takeda and Genentech stakeholders to deliver interpretation pipelines for clinical-trial datasets, 
+translating genomic evidence into actionable therapy-response insights.
+Created input-agnostic workflows across FASTQ, BAM, and VCF formats and vendor data from 4BaseCare, Tempus, 
+Caris, Foundation Medicine, and Alacris, aligning pipeline compatibility and data standards with external bioinformatics 
+teams.
+Built cancer-driver and CNV-mRNA knowledge bases spanning 30+ cancer types from public multi-omics datasets, 
+supporting evidence integration for target and biomarker assessment.
+Developed an Ensembl-based VUS reclassification pipeline that improved variant-classification accuracy by more than 
+40%, strengthening the genetic evidence available for clinical interpretation.
+Analyzed single-cell RNA-seq data from Human Protein Atlas normal-tissue samples with Seurat, Scanpy, and limma to 
+establish in-silico control baselines for distinguishing cancer-specific expression signatures.
+Applied CIBERSORTx and MuSiC bulk RNA-seq deconvolution to resolve cancer-specific markers within heterogeneous 
+tumor samples and improve multi-omics interpretation.
+Developed workflows for MSI, HRD, mutation signatures, TMB, and indel burden, connecting clinically relevant 
+biomarkers to precision-oncology target and therapy decisions.
+Cellworks - Senior Scientist, Clinical Translation                                                          2018 - 2021
+Built ETL pipelines for DepMap multi-omics, CRISPR-screen, and drug-screen data, then applied knowledge-graph 
+analytics and graph-based machine learning using NetworkX and PyTorch Geometric to identify essential genes and 
+synthetic-lethal relationships.
+Led multi-omics analyses for MDS, AML, and MPN clinical studies to identify disease drivers, treatment-resistance and 
+sensitivity biomarkers, progression signatures, and standard-of-care response predictors.
+Designed a custom liquid-biopsy panel and collaborated with Cleveland Clinic Florida stakeholders to develop an ML 
+pipeline on longitudinal genomic data predicting early melanoma relapse.
+Developed multi-omics interpretation pipelines for 18,000+ Foundation Medicine cases, translating large-scale genomic 
+data into structured clinical insights.
+Developed and benchmarked secondary-analysis pipelines using Illumina DRAGEN, NVIDIA Parabricks, and Sentieon, 
+improving confidence in accuracy and turnaround-time performance.
+Compiled an inventory of NCCN-recommended and FDA-approved assays and tests spanning 88 cancer types to 
+support clinical-genomics interpretation and downstream decision workflows.
+Cellworks - Scientist, Clinical Translation                                              2017 - 2018
+Curated evidence and rationale libraries for therapy-prediction workflows, reducing turnaround time for live oncology 
+case analyses by more than 40%.
+Analyzed 200+ oncology cases, applying cancer and drug-interaction networks to support target selection and therapy-
+response interpretation.
+Benchmarked sequencing pipelines across DNAnexus and MedGenome to establish reproducibility and confidence in 
+clinical-genomics outputs.
+Developed variant annotation, classification and filtering framework to automate prioritization and standardize 
+decision support according to ACMG guidelines.
+Acted as a technical bridge between engineering R&D and core development teams, accelerating product delivery 
+through rapid prototyping and the automation of scalable data processing pipelines.
+Cellworks - Associate Scientist                                              2015 - 2017
+Harmonized karyotyping, aCGH, IHC, and mutation outputs for 500+ cases through automated ETL and data-
+harmonization pipelines, creating a consistent foundation for multi-omics analysis.
+Standardized genomic-data interpretation with academic collaborators at Columbia University, University of Florida, 
+Cedars-Sinai, Mayo Clinic, Washington University, and MMRF-Michigan.
+Automated report-generation workflows that reduced preparation time from approximately 15 hours to minutes per 
+week, accelerating delivery of stakeholder-ready clinical reports.
+INDEPENDENT PROJECTS
+VarEffex: Built a multi-agent scientific literature-mining framework that extracts variant–function associations and links 
+biomedical evidence to variant interpretation and computational target discovery.
+PathoParse: Developed LLM-assisted and rule-based pipelines to convert unstructured pathology reports into structured 
+clinical metadata, supporting downstream biomedical data analysis and evidence integration.
+SQLChat: Created a multi-agent clinical data interface that translates natural-language questions into SQL, performs 
+statistical checks, and returns interpretable summaries for research and stakeholder decision-making.
+EDUCATION
+B.Tech, Biotechnology                                                                                                                                        2015 
+JNTUA CEP
+PUBLICATIONS & ABSTRACTS
+Co-authored 9 peer-reviewed oncology publications and conference abstracts in J Neurooncol, J Clin Oncol, and 
+Blood/ASCO, covering computational biomarker modeling, AML/MDS biosimulation, and therapy-response modeling. 
+Available on ORCID: 0009-0009-1610-1205
